@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar h1{
+    padding: 20px;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    width:80%;
+    margin:auto;
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display:flex;
+}
+.navbar li{
+    list-style-type: none;
+    padding:30px;
+    font-family:Helvetica, sans-serif; 
+}
+.navbar a:hover{
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #203020;
+}
+.navbar button{
+    margin-top:15px;
+    margin-left:100px;
+    padding:10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    color:rgb(96, 96, 245);
+    border:1px solid rgb(71, 71, 245);
+}
+
+
+.firstblock1{
+    background-color: #660746;
+}
+.firstblock{
+    width:80%;
+    margin:auto;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstblock h1{
+    padding-top: 50px;
+    padding-bottom:30px;
+    font-size: 3em;
+
+}
+.firstblock p{
+    padding-top:30px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+}
+.firstblock button{
+    font-size: 1.2em;
+    border-radius:30px;
+    padding:20px 40px;
+    background-color: white;
+    color:#660746;
+    border:none;
+    margin-bottom: 20px;
+}
+
+
+.secondblock{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    margin:auto;
+}
+.heberge h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    padding-left:100px;
+    padding-top:40px;
+    padding-bottom:30px;
+}
+.heberge p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:1px;
+    padding-left:100px;
+    padding-right:60px;
+}
+.spam{
+    color:#000000;
+    border-bottom: 2px solid black;
+    font-family: Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+
+.thirdblock{
+    width:80%;
+    margin:auto;
+}
+.thirdblock h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    padding-top:80px;
+    padding-bottom:30px;
+    padding-left:15px;   
+}
+.fordoing{
+    display: flex;
+    justify-content: space-between;
+}
+.fordoing h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-bottom:20px;
+}
+.fordoing p{
+    text-align:left;
+    font-size: 16px;
+    
+}
+.fordoing div{
+    margin:0px 20px;
+}
+
+
+
+
+
+.lastblock{
+    display: flex;
+    padding-top:60px;
+    padding-left: 50px;
+    width:80%;
+    margin:auto;
+}
+.lastblock h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2em;
+    padding-bottom:30px;
+}
+.lastblock p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width:70%;
+}
